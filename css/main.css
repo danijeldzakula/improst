@@ -1,0 +1,2587 @@
+.container {
+    max-width: 2000px;
+    min-width: 320px;
+    min-height: 1px;
+    margin: auto
+}
+
+html {
+    width: 100%
+}
+
+body {
+    width: 100%
+}
+
+.wrap {
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden !important
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 1px
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+button {
+    position: relative;
+    opacity: .9
+}
+
+button:hover {
+    opacity: 1
+}
+
+button:focus,
+input:focus {
+    outline: none;
+    top: 2px
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8,
+.block9,
+.block10,
+.block11,
+.block12,
+.block13 {
+    min-width: 320px;
+    box-sizing: border-box
+}
+
+.block1 {
+    width: 100%;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block1-bg.jpg) no-repeat center top;
+    float: left;
+    height: 720px;
+    background-size: cover
+}
+
+.block1 .top-line {
+    width: 100%;
+    height: 63px;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+    line-height: 22px
+}
+
+.block1 .top-line .img-block {
+    float: left;
+    height: 55px;
+    padding-right: 10px;
+    padding-top: 5px
+}
+
+.block1 .top-line .bl1 {
+    width: 222px;
+    float: left
+}
+
+.block1 .top-line .bl2 {
+    width: 277px;
+    float: left
+}
+
+.block1 .top-line .bl3 {
+    width: 210px;
+    float: left
+}
+
+.block1 .top-line .bl4 {
+    width: 290px;
+    float: left;
+    text-align: right
+}
+
+.block1 .top-line .bl4 button {
+    width: 285px;
+    height: 35px;
+    margin-top: 8px;
+    /*background:url(https://amazing-cdn.com/a.low.improst-new.ru/img/button1.png) no-repeat center top;*/
+    background: crimson;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none
+}
+
+.red {
+    color: #d63300
+}
+
+.red-bg {
+    background: #d63300;
+    color: #fff;
+    padding: 3px
+}
+
+.block1 .title1 {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 34px;
+    line-height: 44px;
+    margin-top: 30px;
+    font-weight: bold
+}
+
+.block1 .title2 {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 35px
+}
+
+.block1 .left-block {
+    width: 340px;
+    float: left
+}
+
+.block1 .left-block .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px
+}
+
+.block1 .left-block .item .img-block {
+    float: left;
+    width: 45px;
+    height: 50px
+}
+
+.block1 .left-block .item .text {
+    float: left;
+    font-family: "Open Sans";
+    font-size: 22px;
+    color: #2e2e2e;
+    line-height: 26px;
+    width: 295px
+}
+
+.block1 .left-block .item .step {
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 28px
+}
+
+.block1 .center-block {
+    position: relative;
+    width: 315px;
+    height: 100px;
+    float: left
+}
+
+.block1 .center-block .one-day {
+    position: absolute;
+    right: 25px;
+    top: 175px;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px
+}
+
+.block1 .center-block .one-day p {
+    margin: 0;
+    padding: 0
+}
+
+.block1 .center-block .one-day p span {
+    font-size: 24px
+}
+
+.block1 .center-block .opop {
+    position: absolute;
+    width: 160px;
+    right: 4px;
+    top: 246px;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 18px;
+    color: #fff
+}
+
+.block1 .center-block .opop p {
+    margin: 0;
+    padding: 0
+}
+
+.block1 .center-block .opop p:first-child {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 22px
+}
+
+.block1 .center-block .opop p .st {
+    font-size: 12px
+}
+
+.block1 .center-block .opop p .yellow {
+    color: #ffe26d
+}
+
+.block1 .center-block .prod-img {
+    position: relative;
+    left: -24px;
+    top: 60px
+}
+
+.block1 .right-block {
+    width: 345px;
+    float: left
+}
+
+.block1 .right-block .form-block {
+    float: left;
+    width: 334px;
+    height: 508px;
+    background: #fff
+}
+
+a.privacy {
+    display: block;
+    margin: 10px auto;
+    color: #d63300;
+    text-decoration: none;
+    font-size: 20px
+}
+
+a.privacy:hover {
+    text-decoration: underline
+}
+
+.block1 .right-block .form-block .title-form {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: "PT Sans";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d63300
+}
+
+.block1 .right-block .form-block .timer {
+    width: 228px;
+    margin-left: 55px;
+    float: left;
+    font-family: "PT Sans";
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px
+}
+
+.block1 .right-block .form-block .timer .b1,
+.block1 .right-block .form-block .timer .b2,
+.block1 .right-block .form-block .timer .b3,
+.block1 .right-block .form-block .timer .sep {
+    float: left
+}
+
+.block1 .right-block .form-block .timer .sep {
+    width: 20px;
+    text-align: center
+}
+
+.block1 .right-block .form-block .timer .b1,
+.block1 .right-block .form-block .timer .b2,
+.block1 .right-block .form-block .timer .b3 {
+    width: 60px;
+    text-align: center
+}
+
+.block1 .right-block .form-block .timer .desc {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2e2e2e
+}
+
+.block1 .right-block .form-block .line-inp {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 15px
+}
+
+.block1 .right-block .form-block .line-inp select,
+.block1 .right-block .form-block .line-inp input {
+    width: 269px;
+    border-radius: 3px;
+    border: 1px solid #7f7f7f;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #909191
+}
+
+.block1 .right-block .form-block .line-inp select {
+    width: 291px
+}
+
+.block1 .right-block .form-block .but-block {
+    text-align: center;
+    float: left;
+    width: 100%
+}
+
+.block1 .right-block .form-block .but-block button {
+    border: none;
+    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button6.png) no-repeat center top;*/
+    background-color: #b7de34;
+    box-shadow: 0 8px 0 0 green;
+    background-size: 100% 80%;
+    width: 296px;
+    height: 52px;
+    margin-top: 17px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.block1 .right-block .form-block .but-block .pack3 {
+    text-align: right;
+    font-size: 10px;
+    padding: 0;
+    margin: 3px 21px 0 0;
+    color: #777
+}
+
+.block1 .price-block {
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 376px;
+    background: #c8d3d5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 30px
+}
+
+.block1 .price-block p {
+    padding: 0;
+    margin: 0
+}
+
+.block1 .price-block p:first-child {
+    line-height: 18px;
+    margin-bottom: 6px
+}
+
+.block1 .price-block p:last-child {
+    font-size: 26px;
+    font-weight: bold
+}
+
+.block1 .disc-label {
+    display: none;
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/label.png) no-repeat center top;
+    z-index: 2;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: bold;
+    margin-left: 165px;
+    margin-top: 180px
+}
+
+.block1 .disc-label .angle-block {
+    transform: rotate(-27deg);
+    margin-top: 38px;
+    margin-left: 4px
+}
+
+.block1 .disc-label .line1 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #dda625
+}
+
+.block1 .disc-label .line2 {
+    font-size: 28px;
+    line-height: 30px
+}
+
+.block1 .disc-label .line3 {
+    font-size: 16px;
+    line-height: 18px
+}
+
+.block1 .arrow {
+    position: relative;
+    left: -20px;
+    top: -20px;
+    width: 50px
+}
+
+.block2 {
+    width: 100%;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block2-bg.jpg) no-repeat center top;
+    float: left;
+    height: 1162px
+}
+
+.block2 .title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 42px;
+    padding-top: 55px;
+    font-weight: bold
+}
+
+.block2 .left-block {
+    float: left;
+    width: 317px;
+    color: #2e2e2e;
+    font-size: 24px;
+    margin-left: 147px;
+    line-height: 28px;
+    font-family: "Open Sans";
+    margin-top: 117px
+}
+
+.block2 .left-block .line2 {
+    margin-top: 66px
+}
+
+.block2 .left-block .line3 {
+    margin-top: 81px
+}
+
+.block2 .left-block .line4 {
+    margin-top: 94px
+}
+
+.block2 .right-block {
+    float: left;
+    width: 317px;
+    color: #2e2e2e;
+    font-size: 24px;
+    margin-left: 206px;
+    line-height: 28px;
+    font-family: "Open Sans";
+    margin-top: 132px
+}
+
+.block2 .right-block .line2 {
+    margin-top: 94px
+}
+
+.block2 .right-block .line3 {
+    margin-top: 94px
+}
+
+.block2 .right-block .line4 {
+    margin-top: 78px
+}
+
+.block2 .title2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 42px;
+    padding-top: 80px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.block2 .bottom-block {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding-top: 15px;
+    background: #d93102;
+    padding-bottom: 15px;    
+}
+
+.block2 .bottom-block .left {
+    float: left;
+    width: 190px;
+    text-align: center;
+    font-family: "PT Sans";
+    color: #fcbc26;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: bold
+}
+
+.block2 .bottom-block .right {
+    float: left;
+    width: 780px;
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.block3 {
+    width: 100%;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block3-bg.jpg) no-repeat center top;
+    float: left;
+    height: 1402px
+}
+
+.block3 .title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 45px
+}
+
+.orange {
+    color: #fcbc26
+}
+
+.block3 .item {
+    float: left;
+    width: 310px;
+    text-align: center
+}
+
+.block3 .item .img-block {
+    height: 355px
+}
+
+.block3 .item .text {
+    font-family: "PT Sans";
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.block3 .item .title-item {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 5px
+}
+
+.block3 .item2 {
+    width: 380px
+}
+
+.block3 .title2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 130px
+}
+
+.block3 .title3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-top: 120px
+}
+
+.block3 .circle-block {
+    float: left;
+    width: 100%;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block4-circle.png) no-repeat center top;
+    height: 237px;
+    margin-top: 65px
+}
+
+.block3 .circle-block .circle {
+    width: 240px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 120px;
+    float: left;
+    color: #2e2e2e
+}
+
+.block3 .circle-block .c2 {
+    margin-left: 16px
+}
+
+.block3 .circle-block .c3 {
+    margin-left: 13px
+}
+
+.block3 .circle-block .c4 {
+    margin-left: 11px
+}
+
+.block5 {
+    width: 100%;
+    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block5-bg.jpg) no-repeat center center;
+    float: left;
+    height: 700px
+}
+
+.block5 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-weight: bold
+}
+
+.block5 .left-block {
+    float: left;
+    width: 355px;
+    padding-top: 60px
+}
+
+.block5 .left-block .item {
+    float: left;
+    width: 340px;
+    height: 122px;
+    background: #d3dbdd;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left: 13px
+}
+
+.block5 .left-block .item img {
+    position: absolute;
+    margin-left: -13px;
+    margin-top: 11px
+}
+
+.block5 .left-block .item .text {
+    font-family: "Open Sans";
+    line-height: 28px;
+    color: #2e2e2e;
+    font-size: 23px;
+    width: 290px;
+    margin-left: 45px;
+    padding-top: 20px
+}
+
+.block5 .right-block {
+    float: right;
+    width: 355px;
+    padding-top: 60px
+}
+
+.block5 .right-block .item {
+    float: left;
+    width: 344px;
+    height: 122px;
+    background: #d3dbdd;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left: 13px
+}
+
+.block5 .right-block .item img {
+    position: absolute;
+    margin-left: -13px;
+    margin-top: 11px
+}
+
+.block5 .right-block .item .text {
+    font-family: "Open Sans";
+    line-height: 28px;
+    color: #2e2e2e;
+    font-size: 23px;
+    width: 290px;
+    margin-left: 45px;
+    padding-top: 20px
+}
+
+.block5 .button-block {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px
+}
+
+.ultra {
+    display: block
+}
+
+.block5 .button-block button {
+    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button3.png) no-repeat center top;*/
+    background-color: #b7de34;
+    box-shadow: 0 8px 0 0 green;
+    font-size: 26px;
+    font-weight: 600;    
+    color: #666;
+
+    border: none;
+    width: 390px;
+    height: 94px
+}
+
+.block5 .center-block {
+    position: absolute;
+    margin-left: 363px;
+    margin-top: 180px
+}
+
+.indication {}
+
+.indication:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.text_red {}
+
+.indication_img {
+    margin: 30px 0 -2px
+}
+
+.indication_list {
+    width: 490px;
+    float: right;
+    margin-top: 100px
+}
+
+.indication_theme {
+    margin-bottom: 25px !important;
+    width: 100% !important
+}
+
+.indication_theme:nth-child(1) {
+    margin-left: -158px;
+    width: 490px
+}
+
+.indication_theme:nth-child(2) {
+    margin-left: -60px
+}
+
+.indication_theme:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.indication_theme_img {
+    float: left;
+    width: 200px;
+    margin-right: 10px
+}
+
+.indication_theme_title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #d63300;
+    font-family: "PT Sans", sans-serif;
+    padding-top: 20px
+}
+
+.indication_theme_text {
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase
+}
+
+.block6 {
+    width: 100%;
+    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/indication_bg.png) no-repeat center top;
+    float: left;
+    height: 926px
+}
+
+.block6 .title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-top: 60px
+}
+
+.block6 .item {
+    width: 370px;
+    position: absolute
+}
+
+.block6 .item .name {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    font-family: "PT Sans";
+    text-transform: uppercase
+}
+
+.block6 .item .text {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 5px;
+    color: #454546
+}
+
+.block6 .item1 {
+    margin-top: 220px;
+    margin-left: 473px
+}
+
+.block6 .item2 {
+    margin-top: 398px;
+    margin-left: 579px
+}
+
+.block6 .item3 {
+    margin-top: 590px;
+    margin-left: 610px
+}
+
+.block6 .item4 {
+    margin-top: 777px;
+    margin-left: 558px
+}
+
+.block7 {
+    width: 100%;
+    background-color: #fe2601;
+    position: relative;
+    float: left;
+    height: 472px
+}
+
+.block7 .wrapper {
+    position: relative
+}
+
+.block7 .wrapper::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: -40px;
+    width: 340px;
+    height: 398px;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/product44.png) no-repeat left top;
+    background-size: 100%
+}
+
+.block7 .right {
+    float: right;
+    width: 680px;
+    margin-top: 30px
+}
+
+.block7 .title {
+    float: left;
+    width: 100%;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-top: 30px
+}
+
+.block7 .line {
+    float: left;
+    width: 100%;
+    margin-top: 25px
+}
+
+.block7 .line .img-block {
+    float: left;
+    width: 20px;
+    padding-top: 6px
+}
+
+.block7 .line .text {
+    float: left;
+    width: 660px;
+    font-size: 22px;
+    font-family: "Open Sans";
+    line-height: 26px;
+    color: #fff
+}
+
+.block7 button {
+    border: none;
+    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button4.png) no-repeat center top;*/
+    background-color: #b7de34;
+    box-shadow: 0 8px 0 0 green;
+    font-size: 26px;
+    font-weight: 600;
+    color: #666;    
+    width: 547px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px
+}
+
+.block8 {
+    width: 100%;
+    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block8-bg.jpg) no-repeat center top;
+    float: left;
+    height: 979px
+}
+
+.block8 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-weight: bold
+}
+
+.block8 .item {
+    float: left;
+    width: 640px
+}
+
+.block8 .item .text {
+    color: #2e2e2e;
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 28px
+}
+
+.block8 .item .text2 {
+    color: #2e2e2e;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px
+}
+
+.block8 .item1 {
+    margin-left: 330px;
+    margin-top: 40px
+}
+
+.block8 .item2 {
+    margin-left: 40px;
+    margin-top: 92px
+}
+
+.block8 .item2 .text2 {
+    margin-top: 15px
+}
+
+.block9 {
+    width: 100%;
+    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block9-bg.jpg) no-repeat center top;
+    float: left;
+    height: 1113px
+}
+
+.block9 .item .img-block {
+    float: left;
+    width: 220px;
+    text-align: center
+}
+
+.block9 .item .text {
+    color: #2e2e2e;
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 28px;
+    width: 780px;
+    padding-top: 5px;
+    float: left
+}
+
+.block9 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-weight: bold
+}
+
+.block9 .title2 {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 40px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 45px
+}
+
+.block9 .left-block {
+    float: left;
+    width: 390px;
+    margin-left: 62px
+}
+
+.block9 .left-block .name {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "PT Sans";
+    color: #2e2e2e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 120px;
+    line-height: 26px
+}
+
+.block9 .line {
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: "Open Sans"
+}
+
+.block9 .left-block .line1 {
+    margin-top: 70px
+}
+
+.block9 .line2 {
+    margin-top: 78px
+}
+
+.block9 .line3 {
+    margin-top: 44px
+}
+
+.block9 .line4 {
+    margin-top: 38px
+}
+
+.block9 .line5 {
+    margin-top: 38px
+}
+
+.block9 .right-block {
+    float: left;
+    width: 385px;
+    margin-left: 110px
+}
+
+.block9 .right-block .name {
+    width: 100%;
+    float: left;
+    font-size: 34px;
+    line-height: 36px;
+    padding-left: 26px;
+    margin-top: 107px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    margin-bottom: 99px;
+
+}
+
+.block10 {
+    width: 100%;
+    background: #fff;
+    float: left;
+    height: 1100px
+}
+
+.block10 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-weight: bold
+}
+
+.block10 .rew {
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2e2e2e
+}
+
+.block10 .rew .text {
+    width: 700px
+}
+
+.block10 .rew .bottom-text {
+    margin-top: 20px
+}
+
+.block10 .rew1 {
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew1.png) no-repeat center top;
+    height: 205px
+}
+
+.block10 .rew2 {
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew2.png) no-repeat center top;
+    height: 205px
+}
+
+.block10 .rew3 {
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew3.png) no-repeat center top;
+    height: 257px
+}
+
+.block10 .rew1 .text {
+    margin-left: 63px;
+    margin-top: 25px
+}
+
+.block10 .rew2 .text {
+    margin-left: 240px;
+    margin-top: 25px;
+    width: 720px
+}
+
+.block10 .rew3 .text {
+    margin-left: 63px;
+    margin-top: 38px
+}
+
+.block10 .button-block {
+    width: 100%;
+    float: left;
+    text-align: center
+}
+
+.block10 .button-block button {
+    width: 664px;
+    height: 98px;
+    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button5.png) no-repeat center top;*/
+    background-color: #b7de34;
+    box-shadow: 0 8px 0 0 green;
+    font-size: 26px;
+    font-weight: 600;       
+    border: none;
+    margin-top: 20px
+}
+
+.white {
+    color: #fff
+}
+
+.block11 {
+    width: 100%;
+    background: #b83609;
+    float: left;
+    height: 627px
+}
+
+.block11 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 60px;
+    margin-bottom: 65px;
+    font-weight: bold
+}
+
+.block11 .left {
+    float: left;
+    width: 486px
+}
+
+.block11 .img-block {
+    float: left;
+    width: 88px
+}
+
+.block11 .item {
+    float: left;
+    width: 100%
+}
+
+.block11 .right {
+    float: left;
+    width: 514px
+}
+
+.block11 .right .text {
+    width: 426px
+}
+
+.block11 .left .text {
+    width: 398px
+}
+
+.block11 .title-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "PT Sans";
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 10px;
+    line-height: 32px
+}
+
+.block11 .text {
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 28px;
+    float: left
+}
+
+.block11 .item1,
+.block11 .item2 {
+    height: 195px
+}
+
+.block12 {
+    width: 100%;
+    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block12-bg.jpg) no-repeat center bottom;
+    float: left;
+    height: 851px
+}
+
+.block12 .top-block {
+    float: left;
+    width: 100%
+}
+
+.block12 .top-block .text {
+    float: left;
+    width: 710px;
+    margin-left: 240px;
+    margin-top: 70px;
+    font-family: "PT Sans";
+    font-size: 22px;
+    line-height: 26px;
+    color: #2e2e2e
+}
+
+.block12 .top-block .big {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 15px;
+    font-weight: bold
+}
+
+.block12 .title {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold
+}
+
+.block12 .title2 {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 40px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px
+}
+
+.block12 .items {
+    float: left;
+    width: 100%
+}
+
+.block12 .items .item {
+    float: left;
+    width: 273px;
+    text-align: center;
+    color: #2e2e2e;
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 260px
+}
+
+.block12 .items .item2 {
+    width: 422px;
+    margin-left: 18px
+}
+
+.block12 .items .item3 {
+    margin-left: 14px
+}
+
+.block13 {
+    width: 100%;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block13-bg.jpg) no-repeat center top;
+    float: left;
+    height: auto;
+    background-size: cover
+}
+
+.block13 .title1 {
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #2e2e2e;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-weight: bold
+}
+
+.block13 .left-block {
+    width: 340px;
+    float: left
+}
+
+.block13 .left-block .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px
+}
+
+.block13 .left-block .item .img-block {
+    float: left;
+    width: 45px;
+    height: 50px
+}
+
+.block13 .left-block .item .text {
+    float: left;
+    font-family: "Open Sans";
+    font-size: 22px;
+    color: #2e2e2e;
+    line-height: 26px;
+    width: 295px
+}
+
+.block13 .left-block .item .step {
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 28px
+}
+
+.block13 .center-block {
+    position: relative;
+    width: 315px;
+    height: 100px;
+    float: left
+}
+
+.block13 .center-block .one-day {
+    position: absolute;
+    right: 25px;
+    top: 175px;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px
+}
+
+.block13 .center-block .one-day p {
+    margin: 0;
+    padding: 0
+}
+
+.block13 .center-block .one-day p span {
+    font-size: 24px
+}
+
+.block13 .center-block .opop {
+    position: absolute;
+    width: 160px;
+    right: 4px;
+    top: 246px;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 18px;
+    color: #fff
+}
+
+.block13 .center-block .opop p {
+    margin: 0;
+    padding: 0
+}
+
+.block13 .center-block .opop p:first-child {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 22px
+}
+
+.block13 .center-block .opop p .st {
+    font-size: 12px
+}
+
+.block13 .center-block .opop p .yellow {
+    color: #ffe26d
+}
+
+.block13 .center-block .prod-img {
+    position: relative;
+    left: -24px;
+    top: 60px
+}
+
+.block13 .right-block {
+    width: 345px;
+    float: left
+}
+
+.block13 .right-block .form-block {
+    float: left;
+    width: 334px;
+    height: 500px;
+    background: #fff;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.block13 .right-block .form-block .title-form {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: "PT Sans";
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d63300
+}
+
+.block13 .right-block .form-block .timer {
+    width: 228px;
+    margin-left: 55px;
+    float: left;
+    font-family: "PT Sans";
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.block13 .right-block .form-block .timer .b1,
+.block13 .right-block .form-block .timer .b2,
+.block13 .right-block .form-block .timer .b3,
+.block13 .right-block .form-block .timer .sep {
+    float: left
+}
+
+.block13 .right-block .form-block .timer .sep {
+    width: 20px;
+    text-align: center
+}
+
+.block13 .right-block .form-block .timer .b1,
+.block13 .right-block .form-block .timer .b2,
+.block13 .right-block .form-block .timer .b3 {
+    width: 60px;
+    text-align: center
+}
+
+.block13 .right-block .form-block .timer .desc {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2e2e2e
+}
+
+.block13 .right-block .form-block .line-inp {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 15px
+}
+
+.block13 .right-block .form-block .line-inp select,
+.block13 .right-block .form-block .line-inp input {
+    width: 269px;
+    border-radius: 3px;
+    border: 1px solid #7f7f7f;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #909191
+}
+
+.block13 .right-block .form-block .line-inp select {
+    width: 291px
+}
+
+.block13 .right-block .form-block .but-block {
+    text-align: center;
+    float: left;
+    width: 100%
+}
+
+.block13 .right-block .form-block .but-block button {
+    border: none;
+    /* background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button6.png) no-repeat center top; */
+    background-color: #b7de34;
+    box-shadow: 0 8px 0 0 green;
+    background-size: 100% 80%;
+    width: 296px;
+    height: 52px;
+    margin-top: 17px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.block13 .right-block .form-block .but-block .pack3 {
+    text-align: right;
+    font-size: 10px;
+    padding: 0;
+    margin: 3px 21px 0 0;
+    color: #777
+}
+
+.block13 .price-block {
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 378px;
+    background: #c8d3d5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 30px
+}
+
+.block13 .price-block p {
+    padding: 0;
+    margin: 0
+}
+
+.block13 .price-block p:first-child {
+    line-height: 18px;
+    margin-bottom: 6px
+}
+
+.block13 .price-block p:last-child {
+    font-size: 26px;
+    font-weight: bold
+}
+
+.block13 .disc-label {
+    display: none;
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/label.png) no-repeat center top;
+    z-index: 2;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: bold;
+    margin-left: 165px;
+    margin-top: 180px
+}
+
+.block13 .disc-label .angle-block {
+    transform: rotate(-27deg);
+    margin-top: 38px;
+    margin-left: 4px
+}
+
+.block13 .disc-label .line1 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #dda625
+}
+
+.block13 .disc-label .line2 {
+    font-size: 28px;
+    line-height: 30px
+}
+
+.block13 .disc-label .line3 {
+    font-size: 16px;
+    line-height: 18px
+}
+
+.block13 .arrow {
+    position: relative;
+    left: -20px;
+    top: -20px;
+    width: 50px
+}
+
+.block13 .footer-line {
+    width: 100%;
+    background: #bcc5c9;
+    height: auto;
+    margin-top: 28px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    color: #2e2e2e;
+    padding: 10px 0
+}
+
+.confident-link {
+    cursor: pointer;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    color: #2e2e2e;
+    margin: 10px 0 0
+}
+
+.confident-link:hover {
+    text-decoration: none
+}
+
+.hidden-conf {
+    display: none
+}
+
+.conf-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #000;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -khtml-opacity: .9;
+    opacity: .9
+}
+
+.conf-info {
+    position: relative;
+    cursor: default;
+    width: 800px;
+    padding: 30px 30px;
+    color: #000;
+    z-index: 9999;
+    text-align: left;
+    background: #fff;
+    border-radius: 6px;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    margin: 0 0 0 -420px
+}
+
+.conf-info .conf-head {
+    font: 30px/30px "arial", sans-serif;
+    margin: 0 0 16px
+}
+
+.conf-info h5 {
+    font: bold 18px/18px "arial", sans-serif;
+    margin: 16px 0 6px
+}
+
+.conf-info p {
+    font: 13px/15px "arial", sans-serif;
+    margin: 0 0 8px
+}
+
+.closeconf-but {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+    background: url(https://amazing-cdn.com/a.low.improst-new.ru/images/img_close-conf.png) no-repeat
+}
+
+label.error {
+    display: none !important
+}
+
+input.valid {
+    border: 1px solid #14913e !important
+}
+
+input.error {
+    border: 1px solid #ed4c14 !important
+}
+
+@media screen and (max-width:1000px) {
+    .block2 {
+        height: auto;
+        background: none
+    }
+    .block2 .bottom-block {
+        background-color: #cf2f00
+    }
+    .block7 .wrapper::after {
+        width: 280px;
+        position: static;
+        margin: 20px auto 0;
+        height: 320px
+    }
+    .block6 {
+        height: 622px
+    }
+    .indication_img {
+        width: 300px;
+        margin-left: 14px
+    }
+    .block1 .top-line {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center
+    }
+    .indication_theme {}
+    .indication_theme:nth-child(1) {
+        margin: 0
+    }
+    .indication_theme:nth-child(2) {
+        margin: 0
+    }
+    .indication_theme_img {
+        width: 120px;
+        margin: 0 10px 10px 0
+    }
+    .indication_theme_title {
+        font-size: 26px;
+        line-height: 30px;
+        padding-top: 5px
+    }
+    .indication_theme_text {
+        font-size: 18px;
+        line-height: 21px
+    }
+    .block1 .top-line .bl1,
+    .block1 .top-line .bl2,
+    .block1 .top-line .bl3 {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 32% !important;
+        text-align: left
+    }
+    .block1 .price-block,
+    .block13 .price-block {
+        top: 279px;
+        left: -140px
+    }
+    .block1 .center-block,
+    .block13 .center-block {
+        float: right
+    }
+    .block1 .center-block,
+    .block13 .center-block {
+        margin-top: -100px
+    }
+    .block1 .right-block,
+    .block13 .right-block {
+        float: none;
+        margin: 0 auto;
+        clear: both
+    }
+    .block13,
+    .block1 {
+        height: auto;
+        -webkit-background-size: cover;
+        background-size: cover
+    }
+    .block1 .left-block,
+    .block13 .left-block {
+        width: 250px
+    }
+    .block1 .left-block .item .text,
+    .block13 .left-block .item .text {
+        float: none;
+        font-size: 14px;
+        line-height: 20px
+    }
+    .block1 .top-line,
+    .block13 .top-line {
+        height: auto;
+        background-color: #2a2a2a;
+        padding-bottom: 15px
+    }
+    .block1 .top-line .bl1,
+    .block13 .top-line .bl1,
+    .block1 .top-line .bl2,
+    .block13 .top-line .bl2,
+    .block1 .top-line .bl3,
+    .block13 .top-line .bl3 {
+        width: 33%
+    }
+    .block1 .top-line .bl4,
+    .block13 .top-line .bl4 {
+        width: 100%;
+        text-align: center
+    }
+    .block5 .center-block {
+        margin: 0 auto;
+        position: relative;
+        float: none;
+        clear: both;
+        text-align: center;
+        top: -75px
+    }
+    .block5 {
+        height: auto;
+        padding-bottom: 40px
+    }
+    .block5 .left-block,
+    .block5 .right-block {
+        padding-top: 0;
+        float: none;
+        margin: 0 auto;
+        clear: both
+    }
+    .block5 .right-block {
+        margin-top: -100px
+    }
+    .block6 .item1,
+    .block6 .item2,
+    .block6 .item3,
+    .block6 .item4 {
+        margin-left: 0
+    }
+    .block13 .title1,
+    .block12 .title,
+    .block12 .top-block .big,
+    .block11 .title,
+    .block10 .title,
+    .block9 .title2,
+    .block9 .title,
+    .block8 .title,
+    .block7 .title,
+    .block6 .title,
+    .block5 .title,
+    .block3 .title,
+    .block3 .title2,
+    .block3 .title3,
+    .block3 .title,
+    .block2 .title2,
+    .block12 .title2,
+    .block2 .title {
+        font-size: 22px
+    }
+    .block2 .left-block,
+    .block2 .right-block {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center
+    }
+    .block2 .right-block .line1,
+    .block2 .right-block .line2,
+    .block2 .right-block .line3,
+    .block2 .right-block .line4,
+    .block2 .left-block .line1,
+    .block2 .left-block .line2,
+    .block2 .left-block .line3,
+    .block2 .left-block .line4 {
+        margin-top: 15px;
+        position: relative
+    }
+    .block2 .left-block .line1::before {
+        content: "1. "
+    }
+    .block2 .left-block .line2::before {
+        content: "2. "
+    }
+    .block2 .left-block .line3::before {
+        content: "3. "
+    }
+    .block2 .left-block .line4::before {
+        content: "4. "
+    }
+    .block2 .right-block .line1::before {
+        content: "5. "
+    }
+    .block2 .right-block .line2::before {
+        content: "6. "
+    }
+    .block2 .right-block .line3::before {
+        content: "7. "
+    }
+    .block2 .right-block .line4::before {
+        content: "8. "
+    }
+    .block2 .bottom-block .right {
+        color: #333;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 15px
+    }
+    .block2 .bottom-block .left {
+        float: none;
+        text-align: center;
+        margin: 0 auto
+    }
+    .block3 .item,
+    .block3 .item2,
+    .block3 .item3 {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        clear: both;
+        margin-bottom: 30px
+    }
+    .block3 {
+        height: auto;
+        background: #333
+    }
+    .block3 .title2 {
+        margin-top: 15px
+    }
+    .block3 .title3 {
+        margin-top: 30px;
+        color: #fff
+    }
+    .block3 .circle-block {
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        background: #999;
+        height: auto;
+        overflow: hidden
+    }
+    .block3 .circle-block .circle {
+        float: none;
+        margin: 15px auto;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        line-height: 20px
+    }
+    .block3 .circle-block .c1,
+    .block3 .circle-block .c2,
+    .block3 .circle-block .c3,
+    .block3 .circle-block .c4 {
+        position: relative
+    }
+    .block3 .circle-block .c1::before {
+        content: "1. "
+    }
+    .block3 .circle-block .c2::before {
+        content: "2. "
+    }
+    .block3 .circle-block .c3::before {
+        content: "3. "
+    }
+    .block3 .circle-block .c4::before {
+        content: "4. "
+    }
+    .ultra {
+        display: inline
+    }
+    .block6 .item1,
+    .block6 .item2,
+    .block6 .item3,
+    .block6 .item4 {
+        margin: 70px auto 0;
+        text-align: center;
+        position: relative
+    }
+    .block6 .item1 {
+        margin-top: 0
+    }
+    .block7 {
+        background: #fb2e01;
+        height: auto
+    }
+    .block7 .right {
+        float: none;
+        clear: both;
+        text-align: center;
+        width: 100%
+    }
+    .block7 .line {
+        float: none;
+        display: block;
+        width: 100%;
+        clear: both;
+        padding: 0 20px;
+        box-sizing: border-box
+    }
+    .block7 .line .text {
+        float: none;
+        width: 100%
+    }
+    .block7 .title {
+        float: none
+    }
+    .block7 button {
+        width: 100%;
+        -webkit-background-size: contain;
+        background-size: contain;
+        margin: 20px auto 0
+    }
+    .block8 {
+        background: #fff;
+        height: auto
+    }
+    .block8 .title {
+        float: none
+    }
+    .block8 .item1,
+    .block8 .item2 {
+        float: none;
+        width: 100%;
+        margin: 50px auto 0;
+        text-align: center
+    }
+    .block8 .item2 {
+        margin-bottom: 50px
+    }
+    .block11 {
+        height: auto;
+        background: #b83609
+    }
+    .block11 .title {
+        float: none
+    }
+    .block11 .left,
+    .block11 .right {
+        width: 100%;
+        float: none;
+        clear: both;
+        text-align: center;
+        overflow: hidden
+    }
+    .block11 .img-block {
+        float: none;
+        margin: 0 auto 15px
+    }
+    .block11 .text {
+        float: none !important;
+        margin: 0 auto 50px !important;
+        clear: both !important;
+        width: 100% !important
+    }
+    .block12 {
+        background: #d1dcde;
+        height: auto
+    }
+    .block12 .top-block {
+        float: none
+    }
+    .block12 .title {
+        float: none;
+        margin-top: 50px
+    }
+    .block12 .items {
+        float: none
+    }
+    .block12 .title2 {
+        float: none;
+        margin-bottom: 50px
+    }
+    .block12 .items .item,
+    .block12 .items .item2,
+    .block12 .items .item3 {
+        float: none;
+        width: 100%;
+        margin: 50px auto 0
+    }
+    .block12 .top-block .text {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        text-align: center
+    }
+    .block12 .top-block .big {
+        text-align: center
+    }
+    .block10 .button-block button {
+        width: 100%;
+        margin: 20px auto;
+        -webkit-background-size: contain;
+        background-size: contain
+    }
+    .block10 {
+        background: #fff
+    }
+    .block10 .rew {
+        background-position: top right;
+        height: auto;
+        padding-right: 200px;
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 205px;
+        background-color: #f0f5f7
+    }
+    .block10 .rew2 {
+        padding-right: 0;
+        padding-left: 200px;
+        background-position: top left;
+        background-color: #f0f5f7
+    }
+    .block10 .rew2 .text {
+        width: 100%;
+        margin: 0 auto
+    }
+    .block10 .rew3 {
+        padding-right: 200px;
+        padding-left: 0;
+        background-position: top right;
+        background-color: #f0f5f7
+    }
+    .block10 .rew3 .text {
+        width: 100%;
+        margin: 0 auto
+    }
+    .block10 .title {
+        float: none;
+        clear: both
+    }
+    .block10 .rew1 .text {
+        margin: 0 auto;
+        width: 100%
+    }
+    .block9 {
+        background: #d5e0e2;
+        height: auto;
+        padding-bottom: 40px
+    }
+    .block9 .left-block {
+        background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/lleft.jpg) no-repeat center top 15px
+    }
+    .block9 .right-block {
+        background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rright.jpg) no-repeat center top 15px
+    }
+    .block9 .left-block,
+    .block9 .right-block {
+        float: none;
+        clear: both;
+        overflow: hidden;
+        margin: 0 auto
+    }
+    .block9 .item .text {
+        float: none;
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width:810px) {
+    .indication_img {
+        display: none
+    }
+    .indication_list {
+        display: inline-block;
+        margin-top: 40px;
+        float: none
+    }
+    .indication_list::before,
+    .indication_list::after {
+        content: "";
+        display: table;
+        clear: both
+    }
+    .block6 {
+        text-align: center
+    }
+    .indication_theme_text,
+    .indication_theme_title {
+        text-align: left
+    }
+}
+
+@media screen and (max-width:768px) {
+    .block1 .left-block,
+    .block13 .left-block {
+        float: none;
+        margin: 0 auto
+    }
+    .block1 .price-block,
+    .block13 .price-block {
+        position: relative;
+        left: auto;
+        top: auto;
+        right: auto;
+        bottom: auto
+    }
+    .block1 .center-block,
+    .block13 .center-block {
+        margin: 0 auto;
+        float: none;
+        clear: both
+    }
+    .section_indication {
+        padding: 5px
+    }
+    .indication_img {
+        display: none
+    }
+    .indication_list {
+        margin-top: 50px
+    }
+    .block1 .center-block,
+    .block13 .center-block {
+        height: auto
+    }
+    .block1 .center-block .prod-img,
+    .block13 .center-block .prod-img {
+        position: static;
+        margin: 10px auto
+    }
+    .block1 .center-block .one-day,
+    .block13 .center-block .one-day {
+        top: 122px;
+        right: -7px
+    }
+    .block1 .center-block .opop,
+    .block13 .center-block .opop {
+        top: 192px;
+        right: -23px
+    }
+    .arrow {
+        display: none !important
+    }
+    .block1 .top-line .bl1,
+    .block13 .top-line .bl1,
+    .block1 .top-line .bl2,
+    .block13 .top-line .bl2,
+    .block13 .top-line .bl3,
+    .block1 .top-line .bl3 {
+        width: 254px;
+        float: none;
+        margin: 0 auto;
+        text-align: center
+    }
+    .block1 .top-line .img-block,
+    .block13 .top-line .img-block {
+        float: none;
+        text-align: center;
+        height: 30px
+    }
+    .block10 .rew .text,
+    .block10 .rew2 .text,
+    .block10 .rew3 .text {
+        font-size: 16px;
+        line-height: 24px
+    }
+}
+
+@media screen and (max-width:640px) {
+    .block1 .top-line>div.bbb {
+        display: block;
+        margin: 10px auto;
+        width: auto !important
+    }
+    .bl3 {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:468px) {
+    .block10 .rew,
+    .block10 .rew2,
+    .block10 .rew3 {
+        padding-right: 0;
+        padding-left: 0;
+        background: #f0f5f7
+    }
+    .block6 {
+        height: 922px
+    }
+    .block9 .item .text {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .indication_list {
+        width: 300px
+    }
+    .indication_theme_img {
+        float: none;
+        display: block;
+        margin: 5px auto
+    }
+    .block1 .top-line {
+        padding: 10px 0
+    }
+    .block1 .left-block .item .text,
+    .block13 .left-block .item .text {
+        width: auto
+    }
+    .block1 .left-block .item .text br,
+    .block13 .left-block .item .text br {
+        display: none !important
+    }
+    .block1 .center-block .prod-img,
+    .block13 .center-block .prod-img {
+        width: 300px
+    }
+    .block1 .center-block .one-day,
+    .block13 .center-block .one-day {
+        top: 111px;
+        right: 29px;
+        font-size: 16px
+    }
+    .block1 .center-block .one-day p span,
+    .block13 .center-block .one-day p span,
+    .block1 .center-block .opop p:first-child,
+    .block13 .center-block .opop p:first-child {
+        font-size: 20px
+    }
+    .block1 .center-block .opop,
+    .block13 .center-block .opop {
+        top: 170px;
+        right: 7px
+    }
+    .block1 .center-block .opop,
+    .block13 .center-block .opop {
+        font-size: 16px
+    }
+    .block13 .footer-line {
+        margin-top: 0
+    }
+    .block5 * {
+        box-sizing: border-box
+    }
+    .block5 .right-block .item,
+    .block5 .left-block,
+    .block5 .right-block,
+    .block5 .left-block .item,
+    .block5 .left-block .item,
+    .block5 .left-block,
+    .block5 .right-block,
+    .block5 .right-block .item .text {
+        width: auto;
+        height: auto
+    }
+    .block5 .right-block .item,
+    .block5 .left-block .item {
+        padding-bottom: 10px;
+        float: none
+    }
+    .block5 .left-block,
+    .block5 .right-block {
+        padding-right: 17px;
+        box-sizing: border-box
+    }
+    .block5 .button-block button {
+        width: 90%;
+        background-size: 100%
+    }
+    .block9 .left-block,
+    .block9 .right-block {
+        width: 320px;
+        background-size: 115%
+    }
+    .block9 .left-block .name {
+        margin-top: 94px;
+        font-size: 18px;
+        line-height: 20px
+    }
+    .block9 .line {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0 5px
+    }
+    .block9 .right-block .name {
+        padding-left: 13px;
+        margin-top: 86px;
+        margin-bottom: 81px
+    }
+    .block11 .item1,
+    .block11 .item2 {
+        height: auto
+    }
+    .block3 .item2 {
+        width: auto
+    }
+    .block3 .title3 br {
+        display: none !important
+    }
+    .block3 .title3 {
+        margin-bottom: 20px;
+        padding: 0 10px;
+        box-sizing: border-box
+    }
+    .block9 .left-block .line1 {
+        margin-top: 66px
+    }
+    .block9 .line5 {
+        margin-bottom: 5px
+    }
+    .block1 .right-block .form-block,
+    .block1 .right-block .form-block,
+    .block13 .right-block .form-block {
+        max-width: 320px;
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px
+    }
+    .block1 .right-block .form-block .timer,
+    .block13 .right-block .form-block .timer {
+        margin-left: 46px
+    }
+    .block3 {
+        padding-top: 40px
+    }
+    .block3 .title {
+        line-height: 28px
+    }
+    .block1 .right-block {
+        width: auto
+    }
+}
+
+.ever-popup .block1 {
+    height: auto
+}
+
+.ps-text {
+    font-size: 14px
+}
+
+.someprice-block {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #d63300;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+.someprice {
+    font-size: 40px
+}
+
+.oldprice-block {
+    margin-right: 15px;
+    color: #000;
+    text-decoration: line-through;
+    font-size: 25px
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
