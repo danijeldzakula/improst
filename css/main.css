@@ -67,7 +67,7 @@ input:focus {
 
 .block1 {
     width: 100%;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block1-bg.jpg) no-repeat center top;
+    background: url(../img/block1-bg.jpg) no-repeat center top;
     float: left;
     height: 720px;
     background-size: cover
@@ -116,7 +116,6 @@ input:focus {
     width: 285px;
     height: 35px;
     margin-top: 8px;
-    /*background:url(https://amazing-cdn.com/a.low.improst-new.ru/img/button1.png) no-repeat center top;*/
     background: crimson;
     color: white;
     font-weight: 600;
@@ -368,7 +367,6 @@ a.privacy:hover {
 
 .block1 .right-block .form-block .but-block button {
     border: none;
-    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button6.png) no-repeat center top;*/
     background-color: #b7de34;
     box-shadow: 0 8px 0 0 green;
     background-size: 100% 80%;
@@ -419,7 +417,7 @@ a.privacy:hover {
     position: absolute;
     width: 135px;
     height: 135px;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/label.png) no-repeat center top;
+    background: url(../img/label.png) no-repeat center top;
     z-index: 2;
     text-align: center;
     font-family: "PT Sans";
@@ -459,7 +457,7 @@ a.privacy:hover {
 
 .block2 {
     width: 100%;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block2-bg.jpg) no-repeat center top;
+    background: url(../img/block2-bg.jpg) no-repeat center top;
     float: left;
     height: 1162px
 }
@@ -568,7 +566,7 @@ a.privacy:hover {
 
 .block3 {
     width: 100%;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block3-bg.jpg) no-repeat center top;
+    background: url(../img/block3-bg.jpg) no-repeat center top;
     float: left;
     height: 1402px
 }
@@ -650,7 +648,7 @@ a.privacy:hover {
 .block3 .circle-block {
     float: left;
     width: 100%;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block4-circle.png) no-repeat center top;
+    background: url(../img/block4-circle.png) no-repeat center top;
     height: 237px;
     margin-top: 65px
 }
@@ -680,7 +678,7 @@ a.privacy:hover {
 
 .block5 {
     width: 100%;
-    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block5-bg.jpg) no-repeat center center;
+    background: #fff url(../img/block5-bg.jpg) no-repeat center center;
     float: left;
     height: 700px
 }
@@ -775,7 +773,6 @@ a.privacy:hover {
 }
 
 .block5 .button-block button {
-    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button3.png) no-repeat center top;*/
     background-color: #b7de34;
     box-shadow: 0 8px 0 0 green;
     font-size: 26px;
@@ -861,7 +858,7 @@ a.privacy:hover {
 
 .block6 {
     width: 100%;
-    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/indication_bg.png) no-repeat center top;
+    background: #fff url(../img/indication_bg.png) no-repeat center top;
     float: left;
     height: 926px
 }
@@ -940,7 +937,7 @@ a.privacy:hover {
     left: -40px;
     width: 340px;
     height: 398px;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/product44.png) no-repeat left top;
+    background: url(../img/product44.png) no-repeat left top;
     background-size: 100%
 }
 
@@ -983,9 +980,7 @@ a.privacy:hover {
 }
 
 .block7 button {
-    border: none;
-    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button4.png) no-repeat center top;*/
-    background-color: #b7de34;
+    border: none;    background-color: #b7de34;
     box-shadow: 0 8px 0 0 green;
     font-size: 26px;
     font-weight: 600;
@@ -998,7 +993,7 @@ a.privacy:hover {
 
 .block8 {
     width: 100%;
-    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block8-bg.jpg) no-repeat center top;
+    background: #fff url(../img/block8-bg.jpg) no-repeat center top;
     float: left;
     height: 979px
 }
@@ -1053,7 +1048,7 @@ a.privacy:hover {
 
 .block9 {
     width: 100%;
-    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block9-bg.jpg) no-repeat center top;
+    background: #fff url(../img/block9-bg.jpg) no-repeat center top;
     float: left;
     height: 1113px
 }
@@ -1209,17 +1204,17 @@ a.privacy:hover {
 }
 
 .block10 .rew1 {
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew1.png) no-repeat center top;
+    background: url(../img/rew1.png) no-repeat center top;
     height: 205px
 }
 
 .block10 .rew2 {
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew2.png) no-repeat center top;
+    background: url(../img/rew2.png) no-repeat center top;
     height: 205px
 }
 
 .block10 .rew3 {
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rew3.png) no-repeat center top;
+    background: url(../img/rew3.png) no-repeat center top;
     height: 257px
 }
 
@@ -1248,7 +1243,6 @@ a.privacy:hover {
 .block10 .button-block button {
     width: 664px;
     height: 98px;
-    /*background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button5.png) no-repeat center top;*/
     background-color: #b7de34;
     box-shadow: 0 8px 0 0 green;
     font-size: 26px;
@@ -1334,7 +1328,7 @@ a.privacy:hover {
 
 .block12 {
     width: 100%;
-    background: #fff url(https://amazing-cdn.com/a.low.improst-new.ru/img/block12-bg.jpg) no-repeat center bottom;
+    background: #fff url(../img/block12-bg.jpg) no-repeat center bottom;
     float: left;
     height: 851px
 }
@@ -1417,7 +1411,7 @@ a.privacy:hover {
 
 .block13 {
     width: 100%;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/block13-bg.jpg) no-repeat center top;
+    background: url(../img/block13-bg.jpg) no-repeat center top;
     float: left;
     height: auto;
     background-size: cover
@@ -1633,9 +1627,7 @@ a.privacy:hover {
 }
 
 .block13 .right-block .form-block .but-block button {
-    border: none;
-    /* background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/button6.png) no-repeat center top; */
-    background-color: #b7de34;
+    border: none;    background-color: #b7de34;
     box-shadow: 0 8px 0 0 green;
     background-size: 100% 80%;
     width: 296px;
@@ -1685,7 +1677,7 @@ a.privacy:hover {
     position: absolute;
     width: 135px;
     height: 135px;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/label.png) no-repeat center top;
+    background: url(../img/label.png) no-repeat center top;
     z-index: 2;
     text-align: center;
     font-family: "PT Sans";
@@ -1808,7 +1800,6 @@ a.privacy:hover {
     height: 29px;
     width: 29px;
     cursor: pointer;
-    background: url(https://amazing-cdn.com/a.low.improst-new.ru/images/img_close-conf.png) no-repeat
 }
 
 label.error {
@@ -2265,10 +2256,10 @@ input.error {
         padding-bottom: 40px
     }
     .block9 .left-block {
-        background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/lleft.jpg) no-repeat center top 15px
+        background: url(../img/lleft.jpg) no-repeat center top 15px
     }
     .block9 .right-block {
-        background: url(https://amazing-cdn.com/a.low.improst-new.ru/img/rright.jpg) no-repeat center top 15px
+        background: url(../img/rright.jpg) no-repeat center top 15px
     }
     .block9 .left-block,
     .block9 .right-block {
