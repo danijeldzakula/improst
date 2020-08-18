@@ -2576,3 +2576,202 @@ input.error {
   display: table;
   clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block6 {
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 810px) {
+    .block6 {
+        height: 690px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .block6 {
+        height: 848px;
+    }
+}
+
+.block6 .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .block6 .title {
+        margin-top: 20px;
+    }
+}
+
+.herbal__list {
+    /* flood-color */
+    width: 100%;
+    max-width: 460px;
+    text-align: left; 
+}
+
+.block6 .indication_img {
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 810px) {
+    .herbal__list {
+        margin-top: 10px;
+        float: right;
+    }
+    .herbal__list .list-item:nth-child(1),
+    .herbal__list .list-item:nth-child(4) {
+        margin-left: -80px;
+    }
+    .herbal__list .list-item:nth-child(2),
+    .herbal__list .list-item:nth-child(3) {
+        margin-left: -20px;
+    }    
+}
+
+@media only screen and (min-width: 1000px) {
+    .herbal__list {
+        margin-top: 80px;
+    }
+
+    .herbal__list .list-item:nth-child(1),
+    .herbal__list .list-item:nth-child(4) {
+        margin-left: -75px;
+    }
+    .herbal__list .list-item:nth-child(2),
+    .herbal__list .list-item:nth-child(3) {
+        margin-left: 0px;
+    }       
+}
+
+
+.herbal__list .list-item {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herbal__list .img-block {
+    float: left;
+    position: relative;
+    border-radius: 50%;
+}
+
+/* circle frame on photo */
+.herbal__list .img-block:after {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    display: table;
+    content: '';
+    clear: both;
+    background-color: orange;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+/* triangle arrow */
+
+.herbal__list .img-block:before {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left: 10px solid orange;
+
+    content: '';
+    clear: both;
+
+    z-index: 0;
+}
+
+
+.herbal__list .item-img {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 810px) {
+    .herbal__list .item-img {
+        height: 90px;
+    } 
+}
+
+@media only screen and (min-width: 1000px) {
+    .herbal__list .item-img {
+        height: 130px;
+    }
+}
+
+
+
+.herbal__list .text-block {
+    padding-left: 20px;
+}
+
+.herbal__list .item-title {
+    font-size: 26px;
+    color: crimson;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+
+.herbal__list .item-desc {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 810px) {
+
+}
