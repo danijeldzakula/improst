@@ -255,12 +255,24 @@ input:focus {
 
 .block1 .center-block .prod-img {
     position: relative;
-    left: -24px;
-    top: 60px
+    left: 56px;
+    top: 75px;
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+
+@media only screen and (min-width: 1001px) {
+    .block1 .center-block .prod-img {
+        left: -15px;
+        top: -15px;        
+        max-width: 200px;
+    }
 }
 
 .block1 .right-block {
-    width: 345px;
+    width: 320px;
     float: left
 }
 
@@ -786,8 +798,8 @@ a.privacy:hover {
 
 .block5 .center-block {
     position: absolute;
-    margin-left: 363px;
-    margin-top: 180px
+    margin-left: 413px;
+    margin-top: 120px;
 }
 
 .indication {}
@@ -937,8 +949,11 @@ a.privacy:hover {
     left: -40px;
     width: 340px;
     height: 398px;
-    background: url(../img/product44.png) no-repeat left top;
-    background-size: 100%
+    background-image: url(../img/prostata.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
 }
 
 .block7 .right {
@@ -1048,9 +1063,13 @@ a.privacy:hover {
 
 .block9 {
     width: 100%;
-    background: #fff url(../img/block9-bg.jpg) no-repeat center top;
+    /*background: #fff url(../img/block9-bg.jpg) no-repeat center top;*/
     float: left;
-    height: 1113px
+    height: auto;
+    padding-bottom: 50px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .block9 .item .img-block {
@@ -1092,13 +1111,13 @@ a.privacy:hover {
     float: left;
     text-align: center;
     font-weight: bold;
-    margin-top: 45px
+    margin-top: 45px;
 }
 
 .block9 .left-block {
     float: left;
     width: 390px;
-    margin-left: 62px
+    margin-left: 62px;
 }
 
 .block9 .left-block .name {
@@ -1328,14 +1347,32 @@ a.privacy:hover {
 
 .block12 {
     width: 100%;
-    background: #fff url(../img/block12-bg.jpg) no-repeat center bottom;
+    /*background: #fff url(../img/block12-bg.jpg) no-repeat center bottom;*/
     float: left;
     height: 851px
 }
 
 .block12 .top-block {
+    position: relative;
     float: left;
-    width: 100%
+    width: 100%;
+    margin-top: 70px;
+    background-color: #c4e0e1;
+}
+
+.top-block-img {
+    position: absolute;
+    left: 50px;
+    bottom: -20px;
+    width: 100%;
+    max-width: 120px;
+    display: none;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+@media only screen and (min-width: 1001px) {
+    .top-block-img {
+        display: block;
+    }
 }
 
 .block12 .top-block .text {
@@ -1346,7 +1383,9 @@ a.privacy:hover {
     font-family: "PT Sans";
     font-size: 22px;
     line-height: 26px;
-    color: #2e2e2e
+    color: #2e2e2e;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .block12 .top-block .big {
@@ -1368,7 +1407,7 @@ a.privacy:hover {
     width: 100%;
     float: left;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
     font-weight: bold
 }
 
@@ -1390,14 +1429,35 @@ a.privacy:hover {
 }
 
 .block12 .items .item {
+    position: relative;
     float: left;
-    width: 273px;
+    width: 260px;
     text-align: center;
     color: #2e2e2e;
     font-family: "Open Sans";
     font-size: 24px;
     line-height: 28px;
     margin-top: 260px
+}
+
+.block12 .items .item .item-img {
+    position: absolute;
+    top: -230px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    /*border: 3px solid silver; */
+    margin: auto;
+    display: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media only screen and (min-width: 1001px) {
+    .block12 .items .item .item-img {
+        display: block
+    }
 }
 
 .block12 .items .item2 {
@@ -1526,12 +1586,12 @@ a.privacy:hover {
 
 .block13 .center-block .prod-img {
     position: relative;
-    left: -24px;
-    top: 60px
+    left: -15px;
+    top: 0;
 }
 
 .block13 .right-block {
-    width: 345px;
+    width: 320px;
     float: left
 }
 
@@ -1929,7 +1989,7 @@ input.error {
         float: none;
         clear: both;
         text-align: center;
-        top: -75px
+        top: -20px
     }
     .block5 {
         height: auto;
@@ -2256,16 +2316,16 @@ input.error {
         padding-bottom: 40px
     }
     .block9 .left-block {
-        background: url(../img/lleft.jpg) no-repeat center top 15px
+        /*background: url(../img/lleft.jpg) no-repeat center top 15px*/
     }
     .block9 .right-block {
-        background: url(../img/rright.jpg) no-repeat center top 15px
+        /*background: url(../img/rright.jpg) no-repeat center top 15px*/
     }
+
     .block9 .left-block,
     .block9 .right-block {
         float: none;
         clear: both;
-        overflow: hidden;
         margin: 0 auto
     }
     .block9 .item .text {
@@ -2335,7 +2395,11 @@ input.error {
     .block1 .center-block .prod-img,
     .block13 .center-block .prod-img {
         position: static;
-        margin: 10px auto
+        margin: 10px auto 10px 0;
+        width: 100%;
+        display: block;
+        max-width: 200px;
+        filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
     }
     .block1 .center-block .one-day,
     .block13 .center-block .one-day {
@@ -2610,7 +2674,7 @@ input.error {
 
 
 .block6 {
-    height: 652px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2774,4 +2838,249 @@ input.error {
 
 @media only screen and (min-width: 810px) {
 
+}
+
+.badge {
+    position: absolute;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    flex-direction: column;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    z-index: 1;
+    text-align: center;
+}
+
+.badge::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "\f0a3";
+    z-index: -1;
+    
+}
+
+.badge__yellow::after {
+    color: orange;
+    font-size: 80px;
+}
+
+.badge__yellow {
+    top: 120px;
+    right: -10px;
+    width: 80px;
+    height: 80px;    
+    z-index: 10;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+
+.badge__red {
+    top: 160px;
+    right: -10px;
+    width: 160px;
+    height: 160px;
+    z-index: 8;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+
+.badge__red::after {
+    color: crimson;
+    font-size: 160px;
+}
+
+
+
+
+.badge p {
+    font-family: "PT Sans", sans-serif;
+}
+
+.badge__red .yellow{
+    color: yellow;
+}
+
+.badge__red p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.318;    
+}
+
+.block9 .left-block,
+.block9 .right-block {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.block9 .left-product {
+    width: 100%;
+    max-width: 140px;
+    margin: auto;
+    display: block;
+
+}
+
+.block9 .right-product {
+    width: 100%;
+    max-width: 140px;
+    margin: auto;
+    display: block;
+
+}
+
+.block5 .block5-product {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+    
+}
+
+.thumb-head {
+    position: relative;
+    padding: 15px;
+}
+
+.thumb-head .left-product,
+.thumb-head .right-product {
+    position: absolute;
+}
+
+.thumb-head .left-product {
+    bottom: 10px;
+    right: 12px;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+
+.thumb-head .right-product {
+    bottom: -20px;
+    right: 0;
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3));
+}
+
+.thumb-head .head-title {
+    margin: 10px 0;
+}
+
+.pt-170 {
+    padding-top: 170px;
+}
+
+.left-block .thumb-head {
+    background-color: #e8e8e8
+}
+
+.right-block .thumb-head {
+    background-color: #e0f9a8
+}
+
+.thumb-content {
+    padding: 15px;
+}
+
+.thumb-content .progress {
+    position: relative;
+    width: 100%;
+    background-color: #e4e4e4;
+}
+
+.thumb-content .progress__bar {
+    position: relative;
+    display: block;
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.thumb-content .progress__bar--width100 {
+    width: 100%;
+}
+
+.thumb-content .progress__bar--width98 {
+    width: 98%;
+}
+
+.thumb-content .progress__bar--width97 {
+    width: 97%;
+}
+
+.thumb-content .progress__bar--width89 {
+    width: 89%;
+}
+
+.thumb-content .progress__bar--width57 {
+    width: 57%;
+}
+
+.thumb-content .progress__bar--width56 {
+    width: 56%;
+}
+
+.thumb-content .progress__bar--width35 {
+    width: 35%;
+}
+
+.thumb-content .progress__bar--width28 {
+    width: 28%;
+}
+
+.thumb-content .progress__bar--width9 {
+    width: 9%;
+}
+
+.thumb-content .progress__bar span {
+    padding: 7px 10px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    text-align: center;
+}
+
+.thumb-content .progress-value {
+    padding: 10px 0;
+    font-size: 19px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #7b7b7b;
+}
+
+@media only screen and (max-width: 1000.98px) {
+    .right-block {
+        margin-top: 170px!important;
+    }
+}
+
+.block13 .prod-img {
+    position: relative;
+    left: 56px;
+    top: 75px;
+    display: block;
+    width: 100%;
+    max-width: 150px;   
+    filter: drop-shadow(5px 3px 5px rgba(0,0,0,.3)); 
+}
+@media only screen and (min-width: 1001px) {
+    .block13 .prod-img {
+        max-width: 200px;
+        left: 0!important;
+        top: -20px!important;
+    }
+}
+
+@media only screen and (max-width: 1000.98px) {
+    .block13 .center-block .prod-img {
+        top: 60px;
+        left: 30px;
+    }
 }
