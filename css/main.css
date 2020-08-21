@@ -3084,3 +3084,9 @@ input.error {
         left: 30px;
     }
 }
+
+@media only screen and (max-width: 1000.98px) {
+    .m-t-query {
+        margin-top: 0!important;
+    }
+}
